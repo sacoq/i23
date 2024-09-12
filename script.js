@@ -59,7 +59,13 @@ const gamePromoConfigs = {
         promoId: '04ebd6de-69b7-43d1-9c4b-04a6ca3305af',
         attemptsNumber: 20,
         eventsDelay: 20000
-    }
+    },
+Bouncemasters: {
+appToken: 'bc72d3b9-8e91-4884-9c33-f72482f0db37',
+promoId: 'bc72d3b9-8e91-4884-9c33-f72482f0db37',
+eventsDelay: 20000,
+attemptsNumber: 30
+},
 };
 
 let currentAppConfig = Object.values(gamePromoConfigs)[0];
